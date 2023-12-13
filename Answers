@@ -1,0 +1,62 @@
+write a command to update (sudo apt update)
+sudo apt update
+
+write a command to upgrade
+sudo apt upgrade
+
+write a command to install sql server
+sudo apt install mysql -server
+
+write a command to install sql client
+sudo apt install mysql -client
+
+write a command to check my sql version
+mysql --version
+
+write a command to start mysql
+sudo service mysql start
+
+write a command to stop mysql
+sudo service mysql stop
+
+write a command to restart mysql
+sudo service mysql restart
+
+write a command to start sql editor to write queries
+sudo mysql
+
+write a command to create database
+CREATE database;
+
+write a command to create user
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+
+write a command to grant all permisiion for that user on specific database
+GRANT ALL ON database_name to username;
+
+write a command to show all grants for specific user
+SHOW GRANTS FOR username;
+
+write a command to create database
+CREATE database;
+
+write a command to create table
+CREATE table(field_name DATA_TYPE, ...);
+
+write a command to insert values in table
+INSERT INTO table_name VALUES(value, ...);
+
+write a command to display total number of tables
+SHOW tables;
+
+write a command to display total number of databases
+SHOW databases;
+
+write a command to get all values from particular table
+SELECT * FROM table_name;
+
+write a command to show number of antries
+SELECT COUNT (*) FROM table_name;
+
+write a command to alter the table
+ALTER table table_name RENAME/MODIFY/DELETE/... WHERE condition
